@@ -1,0 +1,154 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for the whole page */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  margin: 10px;
+  padding: 0;
+}
+
+/* Container for the table */
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+/* Style for the table */
+table {
+  width: 75%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 0 auto;
+}
+
+/* Style for table header */
+th {
+  background-color: #4CAF50; /* Vibrant green */
+  color: #fff;
+  font-weight: bold;
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+/* Style for table body */
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+/* Alternate row color */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Hover effect */
+tr:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+/* Search bar style */
+.search-container {
+  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: auto;
+  max-width: 50%; /* Adjust the width as needed */
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 7%;
+  flex: 1;
+  float: left;
+  padding: 15px; /* Adjust padding as needed */
+  box-sizing: border-box;
+  border: 2px solid #4CAF50; /* Vibrant green */
+  border-radius: 5px;
+  font-size: 16px;
+  width: 75%; /* Make the search bar fill the container */
+}
+
+/* Date and time input style */
+.date-time-container {
+  display: flex;
+  float: right;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.date-input,
+.time-input {
+  flex:1 ;
+  padding: 10px;
+  margin-right: 10px;
+  box-sizing: border-box;
+  border: 2px solid #4CAF50; /* Vibrant green */
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Scroll bar style */
+::-webkit-scrollbar {
+  width: 50px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/* Pagination container */
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Pagination button */
+.pagination-button {
+  margin: 0 5px;
+  padding: 8px 12px;
+  background-color: #4CAF50; /* Green */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Disabled pagination button */
+.pagination-button:disabled {
+  background-color: #ddd; /* Grey */
+  color: #666; /* Dark grey */
+  cursor: not-allowed;
+}
+
+/* Hover effect on pagination button */
+.pagination-button:hover:not(:disabled) {
+  background-color: #45a049; /* Darker green */
+}
+
+/* Active pagination button */
+.pagination-button.active {
+  background-color: #45a049; /* Darker green */
+}
+
+
+
